@@ -1,0 +1,37 @@
+#Hi{
+    width:250px;
+    height:250px;
+    border:2px solid;
+    font-size:250px;
+    text-align:center;
+    background-color:brown;
+    animation:mycolor;
+    animation-play-state:running;
+    animation-iteration-count:infinite;
+    animation-delay:0s;
+    animation-timing-function:ease-in;
+    animation-duration:1s;
+}
+@keyframes myslide{
+    from{margin-left:100%;}
+    to{margin-left:0%;}
+}
+@keyframes myrotate{
+    100%{transform:rotateZ(360deg);}
+}
+@keyframes myopacity{
+    100%{opacity:0;}
+}
+@keyframes myscale{
+    50%{transform:scale(0.8,0.8);}
+}
+@keyframes mycolor{
+    20%{background-color: yellow;}
+    40%{background-color: green;}
+    60%{background-color: blue;}
+    80%{background-color: pink;}
+    100%{background-color: red;}
+    100%{transform:rotateZ(360deg);}
+    100%{opacity:0;}
+
+}
